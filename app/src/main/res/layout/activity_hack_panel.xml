@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0a0a0f"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔥 GOD MODE ENGINE"
+        android:textColor="#2affb6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <ToggleButton
+        android:id="@+id/espToggle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textOff="ESP OFF"
+        android:textOn="ESP ON"
+        android:backgroundTint="#2affb6"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <ToggleButton
+        android:id="@+id/aimbotToggle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textOff="AIMBOT OFF"
+        android:textOn="AIMBOT ON"
+        android:backgroundTint="#ff8800"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <ToggleButton
+        android:id="@+id/speedToggle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textOff="SPEED OFF"
+        android:textOn="SPEED ON"
+        android:backgroundTint="#aa44ff"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"/>
+
+    <ToggleButton
+        android:id="@+id/antiBanToggle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:textOff="ANTI-BAN OFF"
+        android:textOn="ANTI-BAN ON"
+        android:backgroundTint="#ff0044"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OMEGA NEXUS v37.0 · 0% Ban"
+        android:textColor="#555"
+        android:textSize="12sp"
+        android:layout_gravity="center"/>
+</LinearLayout>
